@@ -1,15 +1,26 @@
-﻿//write include statements
-
-
-//write namespace using statement for cout
-
-
-/*
-Call multiply_numbers with 10 and 10 parameter values and display function result
-*/
+﻿#include <iostream>
+#include "data_types.h"
+using namespace std;
+  
 int main()
 {
-	
+//a)
+   int num;
 
-	return 0;
+   //b)
+cout << "Enter a number!\n" ;
+cin >> num;
+  
+//c)
+int result = multiply_numbers(num);
+cout<< "Result ="<<result <<endl;
+  
+//d)
+int num1 = 4;
+  
+//e)
+   result = multiply_numbers(num1);
+   cout << "Result =" + result<<endl;
+  
+return 0;
 }
