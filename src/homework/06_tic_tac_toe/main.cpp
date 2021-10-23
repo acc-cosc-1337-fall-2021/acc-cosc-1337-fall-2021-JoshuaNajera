@@ -1,6 +1,8 @@
+#include "tic_tac_toe.cpp"
 
-int main() 
+int main()
 {
-
-	return 0;
+   ticTacToe game;
+   game.play();
+   return 0;
 }
